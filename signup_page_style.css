@@ -1,0 +1,79 @@
+body {    
+    display: flex;
+    justify-content: center;
+    background-color: #ECEEF1;
+    font: 14px "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.form-container {
+    background-color: lightblue;
+    height: 100vh;
+    width: 320px; /*28vw;*/
+    min-width: 160px;
+    padding: 30px;
+    margin: 50px 0;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+header {
+    text-align: center;
+}
+
+header span {
+    display: block;
+    padding: 10px;
+}
+
+header #form-heading {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.account-info {
+
+}
+
+.account-info label {
+    display: block;
+    text-align: left;
+    line-height: 30px;
+    margin: 25px 0;
+}
+
+.account-info input {
+    width: 96%;
+    padding: 6px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.account-info label span {
+    font-size: 11px;
+}
+
+.btn {
+    height: 40px;
+    width: 100%;
+    margin: 20px 0;
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    margin: 20px;
+}
+
+#tos {
+    font-style: italic;
+    
+}
