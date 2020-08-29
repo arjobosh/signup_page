@@ -18,12 +18,6 @@ body {
     margin: 0 10px;
 }
 
-.sign-in-container #reset-account-link {
-    color: darkred;
-}
-
-
-
 .sign-in-container .btn {
     height: 35px;
     width: 105px;
@@ -157,6 +151,16 @@ fieldset {
 /* hovers */
 .btn:hover,
 #legal ul li:hover,
+#tos div span:hover,
+.captcha-container span:hover,
 .sign-in-container #reset-account-link:hover {
     cursor: pointer;
+}
+
+/* link color */
+#legal ul li,
+#tos div span, 
+.captcha-container span,
+.sign-in-container #reset-account-link {
+    color: darkred;
 }
