@@ -1,17 +1,70 @@
-body {    
-    display: flex;
-    justify-content: center;
-    background-color: #ECEEF1;
+body {
+    background-color: lightgray;
     font: 14px "Helvetica Neue", Helvetica, sans-serif;
 }
 
+.sign-in-container {
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+    margin: 5px 10px;
+}
+
+.sign-in-container div span {
+    display: block;
+    text-align: right;
+    margin: 0 10px;
+}
+
+.sign-in-container #reset-account-link {
+    color: darkred;
+}
+
+
+
+.sign-in-container .btn {
+    height: 35px;
+    width: 105px;
+    margin: 0;
+}
+
+.logos-container {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.logos-container .circle {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin: 20px 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.logos-container #one {
+    background-color: lightpink;
+}
+
+.logos-container #two {
+    background-color: lightgreen;
+}
+
+.logos-container #three {
+    background-color: lightgoldenrodyellow;
+}
+
 .form-container {
-    background-color: lightblue;
+    background-color: whitesmoke;
     height: 100vh;
-    width: 320px; /*28vw;*/
+    width: 320px;
     min-width: 160px;
     padding: 30px;
-    margin: 50px 0;
+    margin: 0 auto;
     border: 1px solid black;
     border-radius: 3px;
 }
@@ -34,10 +87,6 @@ fieldset {
     border: 0;
     margin: 0;
     padding: 0;
-}
-
-.account-info {
-
 }
 
 .account-info label {
@@ -66,14 +115,48 @@ fieldset {
     border: 1px solid black;
     border-radius: 5px;
     font-size: 16px;
-}
-
-footer {
-    text-align: center;
-    margin: 20px;
+    background-color: lightblue;
 }
 
 #tos {
-    font-style: italic;
-    
+    text-align: center;
+    margin: 20px;
+    font-style: italic;   
+}
+
+.captcha-container {
+    background-color: lightblue;
+    color: slategray;
+    margin: 55px -30px -30px -30px;
+    padding: 16px;
+    font-size: 11px;
+    text-align: center;
+}
+
+#legal {
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+
+#legal span {
+    display: block;
+    padding: 1px 0;
+}
+
+#legal ul {
+    list-style: none;
+    padding: 1px 0;
+    margin: 0;
+}
+
+#legal ul li {
+    display: inline;
+    padding: 0 3px;
+}
+
+/* hovers */
+.btn:hover,
+#legal ul li:hover,
+.sign-in-container #reset-account-link:hover {
+    cursor: pointer;
 }

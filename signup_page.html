@@ -8,8 +8,21 @@
 </head>
 
 <body>
-    
-    <div class="form-container">
+    <section class="sign-in-container">
+        <div>
+            <span>already have an account?</span>
+            <span id="reset-account-link">I forgot my user ID or password</span>
+        </div>
+        <input class="btn" type="submit" name="submit" value="sign in">
+    </section>
+
+    <section class="logos-container">
+        <div class="circle" id="one"></div>
+        <div class="circle" id="two"></div>
+        <div class="circle" id="three"></div>
+    </section>
+
+    <section class="form-container">
         <header>
             <span id="form-heading">create an account</span>
             <span id="form-description">one account for everything</span>
@@ -34,15 +47,28 @@
 
             <input class="btn" type="submit" name="submit" value="create account">
 
-            <footer>
-                <span id="tos">
+            <footer id="tos">
+                <span>
                     by clicking "create account", you agree to our <strong>terms</strong> 
                     and have read and acknowledge our <strong>privacy statement</strong>
                 </span>
             </footer>
         </form>
-    </div>
 
+        <section class="captcha-container">
+            invisible reCAPTCHA by Google <strong>privacy policy</strong> and <strong>terms of use</strong>
+        </section>
+    </section>
+
+    <footer id="legal">
+        <ul>
+            <li>legal</li>
+            <li>privacy</li>
+            <li>security</li>
+        </ul>
+        <span>all rights reserved. all trademarks registered.</span>
+        <span>terms and conditions, features, support, pricing, and service options subject to change without notice.</span>
+    </footer>
 </body>
 
 </html>
